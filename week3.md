@@ -1,0 +1,31 @@
+第3-4周学习笔记
+## 一、知识点
+
+### 工具链
+
+- **Git**：版本管理基本操作（clone / add / commit / push）
+- **CMake**：用 CMakeLists.txt 描述构建过程，生成 Makefile 后编译
+- **Markdown**：纯文本写带格式的笔记，`.md` 文件
+
+### C++
+
+- **vector**：动态数组，自动扩容，配合 `sort` / `unique` 做排序去重
+- **stringstream**：按空白切分字符串，统计单词数天然适合
+- **深浅拷贝**：类成员含裸指针时必须自己写拷贝构造，否则重复释放
+
+### OpenCV
+
+- **OpenCV 基础**：`Mat` 是核心数据结构，图像 = 矩阵
+- **图像处理**：灰度化、二值化、ROI、滤波、边缘检测
+## 二、踩坑记录
+
+ -使用豆包的推荐视频去研究有关CMake的教学视频，视频非常晦涩难懂，浪费不少时间
+ ## 三、代码片段
+
+ - CMake基础重要的三条代码
+```CMake
+
+ cmake_minimum_required(VERSION 3.10)
+project(HelloCMake)
+add_executable(hello main.cpp)
+```
