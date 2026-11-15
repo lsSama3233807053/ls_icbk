@@ -1,0 +1,3 @@
+/home/lssama/autoaim/build/CMakeFiles/autoaim.dir
+/home/lssama/autoaim/build/CMakeFiles/edit_cache.dir
+/home/lssama/autoaim/build/CMakeFiles/rebuild_cache.dir
